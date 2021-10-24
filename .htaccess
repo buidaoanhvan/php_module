@@ -1,0 +1,5 @@
+Options -Indexes
+
+ErrorDocument 403 http://%{HTTP_HOST}/php_module/?module=errors&action=404
+ErrorDocument 404 http://%{HTTP_HOST}/php_module/?module=errors&action=404
+ErrorDocument 500 http://%{HTTP_HOST}/php_module/?module=errors&action=404

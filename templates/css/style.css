@@ -1,0 +1,28 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input {
+    border-radius: 16px !important;
+}
+
+.card {
+    border: none;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 16px;
+}
+
+.btn {
+    border-radius: 16px;
+}
